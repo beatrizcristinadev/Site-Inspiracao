@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color:#F2E0D5;
+}
+
+.cabecalho {
+    background-color: #D9967E;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-titulo {
+    font-family: 'Dancing Script', cursiva;
+    color: #8C0303;
+    font-weight: 700; 
+    font-size: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sem serifa;
+    color: #8C0303;
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+.principal {
+    background-image: linear-gradient(75deg, #590202, #8C0303, #D92534);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: 40px 80px 40px 80px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+}
+
+.principal-texto {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sem serifa;
+    font-size: 400;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    color:#F2E0D5;
+}
+
+.principal-imagem {
+    width: 225px;
+    border-radius: 100px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+}
+
+.clipe {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.letra {
+    text-align: center;
+    margin: 40px 80px 40px 80px;
+    padding: 25px;
+}
+
+.letra-titulo {
+    font-family: 'Dancing Script', cursiva;
+    color: #8C0303;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0px 0px 10px 0px;
+}
+
+.letra-estrofe {
+    font-family: 'Sarala', sem serifa;
+    color: #590202;
+    font-weight: 400; 
+    font-size: 20px;
+    gap: 10px;
+}
+
+.letra-composicao {
+    font-family: 'Sarala', sem serifa;
+    color: #590202;
+    font-weight: 400; 
+    font-size: 10px;
+    padding: 10px 0px 0px 0px;
+}
+
+.artista {
+    margin: 10px 80px 10px 80px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.artista-imagem {
+    width: 500px;
+    border-radius: 100px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+}
+
+.artista-conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.artista-conteudo-titulo {
+    font-family: 'Dancing Script', cursiva;
+    color: #8C0303;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.artista-conteudo-texto{
+    font-family: 'Sarala', sem serifa;
+    color: #590202;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: justify;
+}
+
+.curiosidade {
+    margin: 10px 80px 10px 80px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.curiosidade-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.curiosidade-conteudo-titulo {
+    font-family: 'Dancing Script', cursiva;
+    color: #8C0303;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.curiosidade-conteudo-texto{
+    font-family: 'Sarala', sem serifa;
+    color: #590202;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 25px 0px 0px;
+}
+
+.curiosidade-conteudo-citacao {
+    font-family: 'Sarala', sem serifa;
+    color: #590202;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: justify;
+}
+
+.curiosidade-conteudo-imagem {
+    width: 2000px;
+    border-radius: 50px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+}
+
+
+.musica {
+    margin: 40px 80px 40px 80px;
+    padding: 50px;
+}
+
+.musica-titulo {
+    font-family: 'Dancing Script', cursiva;
+    color: #8C0303;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.musica-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.musica-conteudo-album {
+    background-color: #D9967E;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musica-conteudo-album-imagem {
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.musica-conteudo-album-texto {
+    padding: 20px;
+    color: #590202;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sem serifa;
+    font-size: 400;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.botao {
+    background-image: linear-gradient(75deg, #590202, #8C0303, #D92534);
+    border-radius: 100%;
+    border: none;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.musica-conteudo-album-texto-botao {
+    color: #F2E0D5;
+    padding: 20px;
+    font-family: 'Sarala', sem serifa;
+    font-size: 400;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.redes {
+    padding: 0px 0px 50px 0px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes-icone {
+    color: #590202 ;
+    width: 30px;
+}
+
+.rodape {
+    background-color: #FF9B17;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.rodape-texto {
+    font-family: 'Roboto', sans-serif;
+}

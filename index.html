@@ -3,93 +3,126 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Exercício de HTML e CSS da segunda semana de aula da Reprograma. Fazer uma página com algo ou alguém que te inspire.">
+    <title>Minha inspiração</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>"Pra mim parece certo e libertador <br> Descobrir que nem tudo tem que ser dor..."</h1>
-        <nav>
-            <a href="#">Clip</a>
-            <a href="#">Letra</a>
-            <a href="#">Gloria Groove</a>
-            <a href="#">Curiosidade</a>
-            <a href="#">Play</a>
-            <a href="#">Redes Sociais</a>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">Incondicional</h1>
+        <nav class="cabecalho-menu">
+            <a href="#clipe" class="cabecalho-menu-item">Clip</a>
+            <a href="#letra" class="cabecalho-menu-item">Letra</a>
+            <a href="#artista" class="cabecalho-menu-item">Artista</a>
+            <a href="#curiosidade" class="cabecalho-menu-item">Curiosidade</a>
+            <a href="#albuns" class="cabecalho-menu-item">Álbuns</a>
+            <a href="#redes" class="cabecalho-menu-item">Redes Sociais</a>
         </nav>
     </header>
 
-    <main>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UFuqcWryG2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <main class="principal">
+        <p class="principal-texto"> A música incondicional me acompanhou durante a gestação inteira me dando forças e me ajudando a não ficar triste com tudo que eu estava passando. Cantava para o meu filho todos os dias, com o sentimento de que juntos iríamos passar por tudo! Aprendi a lidar melhor com os meus sentimentos e a ser mais otimista, assim percebi que nem todas as dificuldades precisam ser dor. <br>
+        Hoje continuo cantando, mas agora é para ele dormir ou quando estamos passando por algum momento desafiador juntos. Ele fica quietinho me escutando cantar até pegar no sono ou até nos acalmarmos (logo logo ele começa a cantar comigo rs).<br>
+        De certa forma, quero demonstrar para ele que mesmo não estando no melhor momento por diversos motivos, ainda sim estamos por termos um ao outro. Vou conquistar coisas incríveis por nós para nos dar a vida que merecemos!</p>
+        <img class="principal-imagem" src="./img/bl.png" alt="Foto de mãe e filho">
     </main>
 
-    <section>
-        <h2>Incondicional</h2>
-        <p>Pra mim parece certo e libertador<br>
-        Descobrir que nem tudo tem que ser dor<br>
+    <section class="clipe" id="clipe">
+        <iframe class="clipe" width="1000" height="600" src="https://www.youtube.com/embed/UFuqcWryG2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section class="letra" id="letra">
+        <h2 class="letra-titulo">Letra</h2>
+        <p class="letra-estrofe"><strong> Pra mim parece certo e libertador<br>
+        Descobrir que nem tudo tem que ser dor</strong><br>
         Pra mim parece certo que seu amor<br>
         Hoje me permite ser quem eu sou<br>
         E nada poderá apagar<br>
         Tudo que sinto<br>
         E é tão lindo</p>
-        <p>Mesmo quando o sol não brilhar<br>
+        <p class="letra-estrofe">Mesmo quando o sol não brilhar<br>
         Mesmo quando o tempo acabar<br>
-        Mesmo que não seja agora<br>
-        Ainda assim será<br>
+        <strong> Mesmo que não seja agora<br>
+        Ainda assim será </strong><br>
         Mesmo quando o céu se apagar<br>
         E o mundo for meu lugar<br>
         Mesmo que não seja agora<br>
         Ainda assim será</p>
-        <p>Incondicional</p>
-        <p>Compositores: Alexander Biggs / Daniel Garcia Felicione Napoleao / Mitchell Kenny</p>
+        <p class="letra-estrofe">Incondicional</p>
+        <p class="letra-composicao" >Compositores: Alexander Biggs / Daniel Garcia Felicione Napoleao / Mitchell Kenny</p>
     </section>
 
-    <section>
-        <h2>Glória Groove</h2>
-        <p>Daniel Garcia Felicione Napoleão (São Paulo, 18 de janeiro de 1995) é um cantor, rapper, compositor, drag queen e dublador brasileiro. Iniciou sua carreira em 2002 no grupo Galera do Balão. Em 2006 foi finalista do quadro de calouros Jovens Talentos no Programa Raul Gil e ganhou um convite para atuar na telenovela Bicho do Mato da RecordTV. Na sequência, iniciou uma vasta carreira na dublagem, onde se tornou um dos principais nomes do mercado brasileiro. Retornou à música em 2016 como drag queen e seu nome artístico Glória Groove com a faixa "Dona"</p>
-        <img src="./img/gloria-groove-vermelho.webp" alt="Foto Glória Groove">
+    <section class="artista" id="artista">
+        <img class="artista-imagem" src="./img/Gloria-Groove-perfil.webp" alt="Foto Glória Groove">
+        <div class="artista-conteudo">
+            <h2 class="artista-conteudo-titulo">Glória Groove</h2>
+            <p class="artista-conteudo-texto">Daniel Garcia Felicione Napoleão- mais conhecido como Gloria Groove- (São Paulo, 18 de janeiro de 1995) é um cantor, rapper, compositor, drag queen e dublador brasileiro. Iniciou sua carreira em 2002 no grupo Galera do Balão. Em 2006 foi finalista do quadro de calouros Jovens Talentos no Programa Raul Gil e ganhou um convite para atuar na telenovela Bicho do Mato da RecordTV. Na sequência, iniciou uma vasta carreira na dublagem, onde se tornou um dos principais nomes do mercado brasileiro. Retornou à música em 2016 como drag queen e seu nome artístico Glória Groove com a faixa "Dona"</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Curiosidade</h2>
-        <p>Incondicional foi lançada em 8 de maio de 2020 e conta com a parceria de Gina Garcia, mãe do artista. Por conta do isolamento imposto pelo COVID-19, o clipe foi gravado na casa da família de Groove, o que coube para que o projeto tivesse uma ar mais intimista sobre a relação de mãe e filho.</p>
-        <p>“A concepção deste clipe foi algo totalmente inovador pra um artista como eu, acostumado com as superproduções e grandes estruturas dos clipes pop que vinha fazendo. Foi bom se reinventar e pensar em algo que executássemos em casa. O maior desafio foi fazer tudo antes da chuva que se armou no dia mais importante! (risos)”, relembra Gloria.</p>
-        <p>“Gravar esse clipe é a realização de um sonho! Qual mãe não ficaria feliz em eternizar este amor de uma forma tão nobre? É um momento pelo qual estávamos esperando. Sempre soube que além do talento, meu filho era muito objetivo e determinado. Mesmo assim, sigo me chocando até hoje por não conseguir ver a 'linha de chegada'. Não existem limites para o que a Gloria pode fazer. Aprendi com ele a ir em busca dos meus sonhos! Sonhar, plantar e realizar. E que quando somos amados e respeitados, podemos ser qualquer coisa”, se orgulha Gina.</p>
-        <img src="./img/gina-garcigloria-groove.png" alt="Foto de Gina Garcia com Daniel Garcia no bebê no colo.">
+    <section class="curiosidade" id="curiosidade">
+        <div clas="curiosidade-conteudo">
+            <h2 class="curiosidade-conteudo-titulo">Curiosidade</h2>
+            <p class="curiosidade-conteudo-texto">Incondicional foi lançada em 8 de maio de 2020 e conta com a parceria de Gina Garcia, mãe do artista. Por conta do isolamento imposto pelo COVID-19, o clipe foi gravado na casa da família de Groove, o que coube para que o projeto tivesse uma ar mais intimista sobre a relação de mãe e filho.<br>
+            <q class="curiosidade-conteudo-citacao">A concepção deste clipe foi algo totalmente inovador pra um artista como eu, acostumado com as superproduções e grandes estruturas dos clipes pop que vinha fazendo. Foi bom se reinventar e pensar em algo que executássemos em casa. O maior desafio foi fazer tudo antes da chuva que se armou no dia mais importante! (risos)</q> relembra Gloria. <br>
+            <q class="curiosidade-conteudo-citacao">Gravar esse clipe é a realização de um sonho! Qual mãe não ficaria feliz em eternizar este amor de uma forma tão nobre? É um momento pelo qual estávamos esperando. Sempre soube que além do talento, meu filho era muito objetivo e determinado. Mesmo assim, sigo me chocando até hoje por não conseguir ver a 'linha de chegada'. Não existem limites para o que a Gloria pode fazer. Aprendi com ele a ir em busca dos meus sonhos! Sonhar, plantar e realizar. E que quando somos amados e respeitados, podemos ser qualquer coisa</q> se orgulha Gina.</p>
+        </div>
+        <img class="curiosidade-conteudo-imagem" src="./img/gina-garcigloria-groove.png" alt="Foto de Gina Garcia com Daniel Garcia no bebê no colo.">
     </section>
         
-    <section>
-       <h2>Ouça Gloria Groove</h2>
-       <article>
-        <img src="./img/o-proceder.jpg" alt="Imagem de capa do álbum O Proceder de Gloria Groove">
-       </article>
-       <article>
-        <img src="./img/Alegoria_Gloria_Groove.png" alt="Imagem de capa do EP Alegoria de Gloria Groove">
-       </article>
-       <article>
-        <img src="./img/Design-sem-nome-21-800x800.webp" alt="Imagem de capa do EP Affair de Gloria Groove">
-       </article>
-       <article>
-        <img src="./img/gloriagroveladyleste.webp" alt="Imagem de capa do álbum Lady Leste de Gloria Groove">
-       </article>
+    <section class="musica" id="albuns">
+       <h2 class="musica-titulo">Álbuns</h2>
+       <div class="musica-conteudo">
+            <article class="musica-conteudo-album">
+                <img class="musica-conteudo-album-imagem" src="./img/o-proceder.jpg" alt="Imagem de capa do álbum O Proceder de Gloria Groove">
+                <p class="musica-conteudo-album-texto">O proceder</p>
+                <a  href="https://www.youtube.com/watch?v=DLc2_53Mqws&list=PLPUFK28PKZP6oTapYcK0m4_o7UnomuQll" target="_blank" ><button class="botao"><p class="musica-conteudo-album-texto-botao">Play</p></button></a>
+            </article>
+            <article class="musica-conteudo-album">
+                <img class="musica-conteudo-album-imagem" src="./img/alegoria.png" alt="Imagem de capa do EP Alegoria de Gloria Groove">
+                <p class="musica-conteudo-album-texto">Alegoria</p>
+                <a  href="https://www.youtube.com/watch?v=MnSUJfgF-NE&list=OLAK5uy_khfrnLfcRrSARtzNJ7DYnbQN-W3BYX5Cs" target="_blank" ><button class="botao"><p class="musica-conteudo-album-texto-botao">Play</p></button></a>
+            </article>
+            <article class="musica-conteudo-album">
+                <img class="musica-conteudo-album-imagem" src="./img/affair.webp" alt="Imagem de capa do EP Affair de Gloria Groove">
+                <p class="musica-conteudo-album-texto">Affair</p>
+                <a  href="https://www.youtube.com/watch?v=pUR5V5kyx3k&list=OLAK5uy_mnMbCCm_mILLsRhn_yiiQgJTsrefrE0UA" target="_blank" ><button class="botao"><p class="musica-conteudo-album-texto-botao">Play</p></button></a>
+            </article>
+            <article class="musica-conteudo-album">
+                <img class="musica-conteudo-album-imagem" src="./img/lady-leste.jpg" alt="Imagem de capa do álbum Lady Leste de Gloria Groove">
+                <p class="musica-conteudo-album-texto">Lady Leste</p>
+                <a  href="https://www.youtube.com/watch?v=km68tDXYDZk&list=OLAK5uy_l4JsdlzJRYxdEKvaM4dsrTen0BEfXTcoE" target="_blank" ><button class="botao"><p class="musica-conteudo-album-texto-botao">Play</p></button></a>
+            </article>
+       </div>
+       
     </section>
 
-    <section>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+    <section class="redes" id="redes">
+        <a class="redes-icone" href="https://www.facebook.com/gloriagroove/?locale=pt_BR" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+        <a class="redes-icone" href="https://www.instagram.com/gloriagroove/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg></a>
+        <a class="redes-icone" href="https://twitter.com/gloriagroove?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg></a>
+        <a class="redes-icone" href="https://www.tiktok.com/@gloriagroove" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+          </svg></a>
+        <a class="redes-icone" href="https://www.youtube.com/@GloriaGroove" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+          </svg></a>
     </section>
 
-    <footer>
-        <p>feito por Beatriz Cristina </p>
-        <img src="" alt="">
+    <footer class="rodape">
+        <p class="rodape-texto"> &copy; Beatriz Cristina Desenvolvedora - 2023</p>
+        <a class="rodape-redes" href="https://www.instagram.com/beatrizcristina.dev/" target="_blank"><img src="./img/instagram-icone.svg" alt="ícone Instagram"></a>
+        <a class="rodape-redes" href="https://github.com/beatrizcristinadev" target="_blank"><img src="./img/github.svg" alt="ícone GitHub"></a>
     </footer>
 
-    
 </body>
 </html>
