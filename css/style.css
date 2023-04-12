@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -8,8 +8,8 @@
 }
 
 body {
-    font-size: 100%;
-    background-color:#F2E0D5;
+    background-color: #F2E0D5;
+    font-size: 1rem;
 }
 
 .cabecalho {
@@ -17,133 +17,131 @@ body {
     display: flex; 
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 1em;
 }
 
 .cabecalho-titulo {
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Petit Formal Script', cursive;
     color: #8C0303;
     font-weight: 700; 
-    font-size: 50px;
+    font-size: 3.125em;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 30px;
+    gap: 2em;
 }
 
 .cabecalho-menu-item {
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     color: #8C0303;
     font-weight: 700; 
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .principal {
     background-image: linear-gradient(75deg, #590202, #8C0303, #D92534);
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    margin: 40px 80px;
-    padding: 50px;
+    box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.25);
+    border-radius: 3.125em;
+    margin: 2.5em 5em;
+    padding: 3.47em;
     display: flex;
     align-items: center;
-    gap: 75px;
+    gap: 4.6875em;
 }
 
 .principal-texto {
-    
     display: flex;
     flex-direction: column;
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     font-size: 400;
     text-align: justify;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.4em;
     color:#F2E0D5;
 }
-
 .principal-imagem {
-    width: 225px;
-    border-radius: 100px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+    width: 14em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25);
 }
 
 .clipe {
     display: block;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 1.3em;
 }
 
 .letra {
     text-align: center;
-    margin: 40px 80px;
-    padding: 25px;
+    margin: 2em 2.5em;
+    padding: 2em;
 }
 
 .letra-titulo {
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Petit Formal Script', cursive;
     color: #8C0303;
     font-weight: 700;
-    font-size: 50px;
-    padding: 0px 0px 10px 0px;
+    font-size: 3em;
+    padding: 0em 0em 0.2em 0em;
 }
 
-.letra-estrofe {
-    font-family: 'Sarala', sem serifa;
+.letra-estrofe{
+    font-family: 'Roboto', sans-serif;
     color: #590202;
     font-weight: 400; 
-    font-size: 20px;
-    gap: 10px;
+    font-size: 1.4em;
+    padding: 0.6em 0em 0em 0em;
 }
 
 .letra-composicao {
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     color: #590202;
     font-weight: 400; 
-    font-size: 10px;
-    padding: 10px 0px 0px 0px;
+    font-size: 0.9em;
+    padding: 1.5em 0em 0em 0em;
 }
 
 .artista {
-    margin: 10px 80px;
-    padding: 50px;
+    margin: 2.5em 3em;
+    padding: 2.5em;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .artista-imagem {
-    width: 500px;
-    border-radius: 100px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+    width: 40em;
+    border-radius: 5em;
+    box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.50);
 }
 
 .artista-conteudo {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 3em;
 }
 
 .artista-conteudo-titulo {
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Petit Formal Script', cursive;
     color: #8C0303;
     font-weight: 700;
-    font-size: 50px;
-    padding: 0px 0px 30px 0px;
+    font-size: 3em;
+    padding: 0em 0em 0.2em 0em;
     text-align: center;
 }
 
 .artista-conteudo-texto{
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     color: #590202;
     font-weight: 400; 
-    font-size: 20px;
+    font-size: 1.4em;
     text-align: justify;
 }
 
 .curiosidade {
-    margin: 10px 80px;
-    padding: 25px;
+    margin: 2.5em 3em;
+    padding: 2.5em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -155,52 +153,51 @@ body {
 }
 
 .curiosidade-conteudo-titulo {
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Petit Formal Script', cursive;
     color: #8C0303;
     font-weight: 700;
-    font-size: 50px;
-    padding: 0px 0px 30px 0px;
+    font-size: 3em;
+    padding: 0em 0em 0.2em 0em;
     text-align: center;
 }
 
 .curiosidade-conteudo-texto{
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     color: #590202;
     font-weight: 400; 
-    font-size: 20px;
+    font-size: 1.4em;
     text-align: justify;
-    padding: 0px 25px 0px 0px;
+    
 }
 
 .curiosidade-conteudo-citacao {
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     color: #590202;
     font-weight: 400; 
-    font-size: 20px;
+    font-size: 1em;
     text-align: justify;
 }
 
 .curiosidade-conteudo-imagem {
-    width: 2000px;
-    border-radius: 50px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+    width: 175em;
+    border-radius: 5em;
+    box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.50);
+    margin: 2em;
 }
 
-
 .musica {
-    margin: 40px 80px;
-    padding: 50px;
+    margin: 2.5em 5em;
+    padding: 2em;
 }
 
 .musica-titulo {
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Petit Formal Script', cursive;
     color: #8C0303;
     font-weight: 700;
-    font-size: 50px;
-    padding: 0px 0px 30px 0px;
+    font-size: 3em;
+    padding: 0em 0em 0.5em 0em;
     text-align: center;
 }
-
 .musica-conteudo {
     display: flex;
     align-items: center;
@@ -209,48 +206,48 @@ body {
 
 .musica-conteudo-album {
     background-color: #D9967E;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    padding: 15px;
+    box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.25);
+    padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .musica-conteudo-album-imagem {
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.25);
 }
 
 .musica-conteudo-album-texto {
-    padding: 20px;
+    padding: 1em 0em;
     color: #590202;
     display: flex;
     flex-direction: column;
-    font-family: 'Sarala', sem serifa;
+    font-family: 'Roboto', sans-serif;
     font-size: 400;
     text-align: justify;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .botao {
     background-image: linear-gradient(75deg, #590202, #8C0303, #D92534);
-    border-radius: 100%;
+    border-radius: 100em;
     border: none;
-    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.25);
 }
 
 .musica-conteudo-album-texto-botao {
     color: #F2E0D5;
-    padding: 20px;
-    font-family: 'Sarala', sem serifa;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
     font-size: 400;
     text-align: justify;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .redes {
-    padding: 0px 0px 50px 0px;
+    margin: 3.5px 0px;
+    padding: 0em 0em 3em 0em;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -259,16 +256,16 @@ body {
 
 .redes-icone {
     color: #590202 ;
-    width: 30px;
+    width: 1.875em;
 }
 
 .rodape {
     background-color: #FF9B17;
-    padding: 10px;
+    padding: 0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 1em;
 }
 
 .rodape-texto {
