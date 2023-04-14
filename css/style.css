@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
 }
 
@@ -24,7 +23,7 @@ body {
     font-family: 'Petit Formal Script', cursive;
     color: #8C0303;
     font-weight: 700; 
-    font-size: 3.125em;
+    font-size: 3em;
 }
 
 .cabecalho-menu {
@@ -246,7 +245,7 @@ body {
 }
 
 .redes {
-    margin: 3.5px 0px;
+    margin: 3px 0px;
     padding: 0em 0em 3em 0em;
     display: flex; 
     align-items: center;
