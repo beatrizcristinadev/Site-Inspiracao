@@ -1,4 +1,4 @@
-@media screen and (min-width:481px) and (max-width: 768px) {
+@media screen and (min-width:1025px) and (max-width: 1200px) {
     * {
         margin: 0;
         padding: 0;
@@ -13,7 +13,7 @@
     .cabecalho {
         background-color: #D9967E;
         display: flex; 
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around;
         padding: 1em;
@@ -23,8 +23,8 @@
         font-family: 'Petit Formal Script', cursive;
         color: #8C0303;
         font-weight: 700; 
-        font-size: 6em;
-        padding: 0.5em 0em 0em 0em ;
+        font-size: 7em;
+        padding: 0.5em 0em ;
     }
     
     .cabecalho-menu {
@@ -38,7 +38,7 @@
         font-family: 'Roboto', sans-serif;
         color: #8C0303;
         font-weight: 700; 
-        font-size: 3em;
+        font-size: 4em;
         padding: 0.5em 0em;
     }
     
@@ -47,6 +47,7 @@
         box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.25);
         border-radius: 3.125em;
         padding: 3.47em;
+        margin: 10em;
     }
     
     .principal-texto {
@@ -56,19 +57,18 @@
         font-size: 400;
         text-align: justify;
         font-weight: 400;
-        font-size: 2.7em;
+        font-size: 4em;
         color:#F2E0D5;
     }
 
     .principal-imagem {
-        display: none;
-        /* width: 50em;
-        box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25); */
+        width: 30em;
+        box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.25);
     }
     
     .clipe {
-        width: 460px;
-        height: 260px;
+        width: 1000px;
+        height: 500px;
         display: block;
         margin: 0 auto;
         padding-top: 0.5em;
@@ -82,7 +82,7 @@
         font-family: 'Petit Formal Script', cursive;
         color: #8C0303;
         font-weight: 700;
-        font-size: 4.5em;
+        font-size: 5.5em;
         padding: 0.3em 0em;
     }
     
@@ -90,7 +90,7 @@
         font-family: 'Roboto', sans-serif;
         color: #590202;
         font-weight: 400; 
-        font-size: 2.7em;
+        font-size: 4em;
         padding: 0.3em 0em;
     }
     
@@ -98,19 +98,19 @@
         font-family: 'Roboto', sans-serif;
         color: #590202;
         font-weight: 400; 
-        font-size: 2em;
+        font-size: 3em;
         padding: 0.3em 0em;
     }
     
     .artista {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        
+        margin: 10em;        
     }
     
     .artista-imagem {
-        width: 50em;
+        width: 90em;
         border-radius: 5em;
         box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.50);
     }
@@ -124,8 +124,8 @@
         font-family: 'Petit Formal Script', cursive;
         color: #8C0303;
         font-weight: 700;
-        font-size: 4.5em;
-        padding: 0.3em 0em;
+        font-size: 5.5em;
+        padding: 0.3em;
         text-align: center;
     }
     
@@ -133,27 +133,29 @@
         font-family: 'Roboto', sans-serif;
         color: #590202;
         font-weight: 400; 
-        font-size: 2.7em;
+        font-size: 4em;
         text-align: justify;
     }
     
     .curiosidade {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        margin: 10em;
     }
     
     .curiosidade-conteudo{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin: 10em;
     }
     
     .curiosidade-conteudo-titulo {
         font-family: 'Petit Formal Script', cursive;
         color: #8C0303;
         font-weight: 700;
-        font-size: 4.5em;
+        font-size: 5.5em;
         padding: 0.3em 0em;
         text-align: center;
     }
@@ -162,7 +164,7 @@
         font-family: 'Roboto', sans-serif;
         color: #590202;
         font-weight: 400; 
-        font-size: 2.7em;
+        font-size: 4em;
         text-align: justify;
         
     }
@@ -176,7 +178,7 @@
     }
     
     .curiosidade-conteudo-imagem {
-        width: 50em;
+        width: 90em;
         border-radius: 5em;
         box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.50);
         margin: 2em;
@@ -191,7 +193,7 @@
         font-family: 'Petit Formal Script', cursive;
         color: #8C0303;
         font-weight: 700;
-        font-size: 4.5em;
+        font-size: 5.5em;
         padding: 0.3em 0em;
         text-align: center;
     }
@@ -200,7 +202,7 @@
         align-items: center;
         justify-content: space-around;
         display: flex;
-        flex-direction: column;
+        flex-flow: wrap;
     }
     
     .musica-conteudo-album {
