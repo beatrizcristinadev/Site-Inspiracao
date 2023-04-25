@@ -67,7 +67,7 @@ body {
 .clipe {
     display: block;
     margin: 0 auto;
-    padding-top: 1.3em;
+    padding-top: 0.8em;
 }
 
 .letra {
@@ -102,7 +102,7 @@ body {
 
 .artista {
     margin: 2.5em 3em;
-    padding: 2.5em;
+    padding: 3em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -113,12 +113,13 @@ body {
     width: 40em;
     border-radius: 5em;
     box-shadow: 0.25em 0.3125em 0.25em rgba(0, 0, 0, 0.50);
+    margin: 2em;
 }
 
 .artista-conteudo {
     display: flex;
     flex-direction: column;
-    padding: 3em;
+    padding: 0em;
 }
 
 .artista-conteudo-titulo {
@@ -269,4 +270,422 @@ body {
 
 .rodape-texto {
     font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .cabecalho-menu {
+        gap: 1em;
+    }
+    .principal {
+        margin:  3em 2.5em;
+        padding: 2em;
+    }
+    .principal-texto {
+        font-size: 1.2em;
+    }
+    .principal-imagem {
+        width: 12em;
+    }
+    .clipe {
+        max-width: 1000px;
+        max-height: 500px;
+        padding-top: 1.2em;
+    }
+    .letra-titulo {
+        font-size: 2.5em;
+    }
+    .letra-estrofe{ 
+        font-size: 1.2em;
+    }
+    .artista {
+        margin: 2em;
+        padding: 3em 4em;
+    }
+    .artista-imagem {
+        width: 25em;
+    }
+    .artista-conteudo-titulo {
+        font-size: 2.5em;
+    }
+    .artista-conteudo-texto{
+        font-size: 1.2em;
+    }
+    .curiosidade {
+        margin: 0em;
+        padding: 2em;
+    }
+    .curiosidade-conteudo-titulo {
+        font-size: 2.5em;
+    }
+    .curiosidade-conteudo-texto{
+        font-size: 1.2em;
+    }
+    .curiosidade-conteudo-imagem {
+        width: 140em;
+    }
+    .musica {
+        margin: 0em;
+        padding: 3em;
+    }
+    .musica-titulo {
+        font-size: 2.5em;
+    }
+    .musica-conteudo-album-imagem {
+        width: 10em;
+    }
+    .musica-conteudo-album-texto {
+        font-size: 1.5em;
+    }
+    .musica-conteudo-album-texto-botao {
+        font-size: 0.75em;
+    }
+    .redes {
+        margin: 1em;
+        padding: 0em;
+        gap: 25px;
+    }
+    .redes-icone {
+        width: 1em;
+    }
+    .rodape {
+        gap: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .cabecalho {
+        display: flex; 
+        flex-direction: column;
+        padding: 1em;
+    }
+    .cabecalho-titulo { 
+        font-size: 2.2em;
+    }
+    .cabecalho-menu-item {
+        font-size: 1em;
+    }
+    .principal {
+        margin:  1em 2.5em;
+        padding: 1.5em;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1em; 
+    }
+    .principal-texto {
+        font-size: 1em;
+    }
+    .principal-imagem {
+        width: 6.5em;
+    }
+    .clipe {
+        max-width: 700px;
+        max-height: 450px;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    .letra {
+        margin: 2em;
+        padding: 4em;
+    }
+    .letra-titulo {
+        font-size: 2.2em;
+    }
+    .letra-estrofe{ 
+        font-size: 1.2em;
+    }
+    .letra-composicao{ 
+        font-size: 1em;
+    }
+    .artista {
+        margin: 0em;
+        padding: 0em 3em;
+        display: flex;
+        flex-direction: column;
+    }
+    .artista-imagem {
+        width: 25em;
+    }
+    .artista-conteudo-titulo {
+        font-size: 2.2em;
+    }
+    .artista-conteudo-texto{
+        font-size: 1.2em;
+    }
+    .curiosidade {
+        margin: 0em;
+        padding: 0em 3em;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .curiosidade-conteudo-titulo {
+        font-size: 2.2em;
+    }
+    .curiosidade-conteudo-texto{
+        font-size: 1.2em;
+    }
+    .curiosidade-conteudo-imagem {
+        width: 15em;
+    }
+    .musica {
+        margin: 0em;
+        padding: 2em;
+    }
+    .musica-titulo {
+        font-size: 2.2em;
+    }
+    .musica-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .musica-conteudo-album-imagem {
+        width: 8em;
+    }
+    .musica-conteudo-album-texto {
+        font-size: 1.2em;
+    }
+    .musica-conteudo-album-texto-botao {
+        font-size: 0.70em;
+    }
+    .redes {
+        margin: 1em;
+        padding: 0em;
+        gap: 25px;
+    }
+    .redes-icone {
+        width: 0.70em;
+    }
+    .rodape {
+        gap: none;
+    }
+    .rodape-texto {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .cabecalho {
+        display: flex; 
+        flex-direction: column;
+        padding: 1em;
+    }
+    .cabecalho-titulo { 
+        font-size: 2em;
+    }
+    .cabecalho-menu-item {
+        font-size: 0.8em;
+    }
+    .principal {
+        margin:  1em 2.5em;
+        padding: 1.5em;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1em; 
+    }
+    .principal-texto {
+        font-size: 1em;
+    }
+    .principal-imagem {
+        width: 6.5em;
+    }
+    .clipe {
+        max-width: 400px;
+        max-height: 200px;
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+    }
+    .letra {
+        padding: 0em 3em;
+        margin: 1.5em 0em 0em 0em;
+    }
+    .letra-titulo {
+        font-size: 2em;
+    }
+    .letra-estrofe{ 
+        font-size: 1em;
+    }
+    .letra-composicao{ 
+        font-size: 1em;
+    }
+    .artista {
+        margin: 0em;
+        padding: 0em 3em;
+        display: flex;
+        flex-direction: column;
+    }
+    .artista-imagem {
+        width: 20em;
+        border-radius: 2em;
+    }
+    .artista-conteudo-titulo {
+        font-size: 2.2em;
+    }
+    .artista-conteudo-texto{
+        font-size: 1.2em;
+    }
+    .curiosidade {
+        margin: 0em;
+        padding: 0em 3em;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .curiosidade-conteudo-titulo {
+        font-size: 2.2em;
+    }
+    .curiosidade-conteudo-texto{
+        font-size: 1.2em;
+    }
+    .curiosidade-conteudo-imagem {
+        width: 12em;
+        border-radius: 2em;
+    }
+    .musica {
+        margin: 0em;
+        padding: 1.5em 2em;
+    }
+    .musica-titulo {
+        font-size: 2.2em;
+    }
+    .musica-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .musica-conteudo-album-imagem {
+        width: 6em;
+    }
+    .musica-conteudo-album-texto {
+        font-size: 1.2em;
+    }
+    .musica-conteudo-album-texto-botao {
+        font-size: 0.70em;
+    }
+    .redes {
+        margin: 1em;
+        padding: 0em;
+        gap: 30px;
+    }
+    .redes-icone {
+        width: .5em;
+    }
+    .rodape {
+        gap: none;
+    }
+    .rodape-texto {
+        font-size: 0.75em;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .cabecalho {
+        display: flex; 
+        flex-direction: column;
+        padding: 1em;
+    }
+    .cabecalho-titulo { 
+        font-size: 1.6em;
+    }
+    .cabecalho-menu {
+        gap: 1em;
+    }
+    .cabecalho-menu-item {
+        font-size: 0.6em;
+    }
+    .principal {
+        margin:  1em 2.5em;
+        padding: 1.5em;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1em; 
+    }
+    .principal-texto {
+        font-size: 0.8em;
+    }
+    .principal-imagem {
+        width: 5em;
+    }
+    .clipe {
+        max-width: 300px;
+        max-height: 150px;
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+    }
+    .letra {
+        padding: 0em 3em;
+        margin: 1.5em 0em 0em 0em;
+    }
+    .letra-titulo {
+        font-size: 1.6em;
+    }
+    .letra-estrofe{ 
+        font-size: 0.8em;
+    }
+    .letra-composicao{ 
+        font-size: 0.5em;
+    }
+    .artista {
+        margin: 0em;
+        padding: 0em 3em;
+        display: flex;
+        flex-direction: column;
+    }
+    .artista-imagem {
+        width: 12em;
+        border-radius: 2em;
+    }
+    .artista-conteudo-titulo {
+        font-size: 1.6em;
+    }
+    .artista-conteudo-texto{
+        font-size: 0.8em;
+    }
+    .curiosidade {
+        margin: 0em;
+        padding: 0em 3em;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .curiosidade-conteudo-titulo {
+        font-size: 1.6em;
+    }
+    .curiosidade-conteudo-texto{
+        font-size: 0.8em;
+    }
+    .curiosidade-conteudo-imagem {
+        width: 7em;
+        border-radius: 2em;
+    }
+    .musica {
+        margin: 0em;
+        padding: 1.5em 2em;
+    }
+    .musica-titulo {
+        font-size: 1.6em;
+    }
+    .musica-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .musica-conteudo-album-imagem {
+        width: 6em;
+    }
+    .musica-conteudo-album-texto {
+        font-size: 0.8em;
+    }
+    .musica-conteudo-album-texto-botao {
+        font-size: 0.5em;
+    }
+    .redes {
+        margin: 1em;
+        padding: 0em;
+        gap: 30px;
+    }
+    .redes-icone {
+        width: .1em;
+    }
+    .rodape {
+        gap: none;
+    }
+    .rodape-texto {
+        font-size: 0.7em;
+    }
 }
